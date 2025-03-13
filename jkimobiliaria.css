@@ -1,0 +1,43 @@
+*{ 
+ margin: 0;
+padding: 0;
+}
+
+    body {background-color: #f1c15d;
+    }
+
+header {
+    
+    display: flex; /*Deixando os itens lado a lado  */
+    background-color: #09a3ad; /*Mudando a cor de fundo (header)*/ 
+    justify-content: center; /* Colocar o contéudo ao centro*/
+    align-items: center;  /* alinhar verticalmente os itens */
+    gap: 5%; /*espaço entre os itens*/
+    padding: 2%; /*espaço do fundo*/
+ 
+}
+
+header img { 
+    width: 60px;
+}
+
+    header h1 {
+        color: #94bb68;
+        font-family: "Montserrat", sans-serif;
+        font-weight: 900;
+    }
+
+    .list-menu ul {
+        display: flex; /* alterando lista não ordenada -elemento pai-*/
+        justify-content: center; /*centralizando minhas listas*/
+        gap: 25px; /*Espaço entre as li*/
+    }
+
+    .list-menu ul li {
+        list-style: none; /*alterando a lista não ordenada e removendo o estilo aplicado*/
+    }
+
+    .list-menu ul li a {
+        text-decoration: none; /*Remoção de sublinhado*/
+        color: #f1c15d;
+    }
