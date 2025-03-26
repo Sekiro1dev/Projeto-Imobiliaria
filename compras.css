@@ -4,14 +4,14 @@
 }
 
 body {
-    background-color: #122c91;
+    background-color: #dad6ca;
 }
 
 header {
 
     display: flex;
     /*Deixando os itens lado a lado  */
-    background-color: #1d2440;
+    background-color: #dad6ca;
     /*Mudando a cor de fundo (header)*/
     justify-content: center;
     /* Colocar o contéudo ao centro*/
@@ -30,7 +30,7 @@ header img {
 
 header h1 {
     color: #ffffff;
-    font-family: "Montserrat", sans-serif;
+    font-family: 'Times New Roman', Times, serif;
     font-weight: 900;
 }
 
@@ -62,7 +62,7 @@ header h1 {
     /*Alterando espaço do video e preenchendo o fundo, E alinhando o botao */
 
     padding: 300px;
-    background-image: url(videos-gif/plano\ de\ fundo.gif);
+    background-image: url(imagens/istockphoto-1250996809-1024x1024.jpg);
     background-size: cover;
     display: flex;
     justify-content: center;
@@ -72,39 +72,44 @@ header h1 {
 
 }
 
+.pesquisa {
+    padding: 1%;
+    border-radius: 0%;
+    width: 300px;
+    background-color: #ffffffa9;
+    color: rgb(0, 0, 0);
+    font-family: 'Times New Roman', Times, serif
+
+}
+
+
 .botao {
     /*personalização do botão tamanho largura e troca de cor e deixando o botão "circular"*/
 
-    padding: 35px;
-    border-radius: 20px;
-    width: 40%;
-    background-color: #1d2440;
+    padding: 1%;
+    border-radius: 0%;
+    width: 5%;
+    background-color: #ffffff96;
     color: aliceblue;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Times New Roman', Times, serif
 }
 
-
-.h3 {
-    display: flex;
-    justify-content: center;
-    background-color: #1d2440;
-    color: white;
-}
 
 .sessao2 {
-    background-color: #1d2440;
+    background-color: #dad6ca;
     display: flex;
     justify-content: center;
-    gap: 10%;
-    padding: 2%;
+    padding: 1%;
+    gap: 2%;
 
 }
 
 .sessao2 div {
-    background-color: #9b0800;
-    width: 50%;
-    padding: 20px;
-
+    background-color: #4f8699;
+    width: 60%;
+    padding: 0%;
+    border-radius: 30px;
+    
 }
 
 .sessao2 p {
@@ -114,6 +119,7 @@ header h1 {
     margin-bottom: 10px;
     font-weight: 600;
     justify-content: space-evenly;
+    flex-direction: column;
     color: white;
 }
 
@@ -122,64 +128,9 @@ header h1 {
 }
 
 .sessao2 i {
-    font-size: 50px;
+    font-size: 15px;
     color: rgb(230, 255, 6);
-}
-
-.sessao3 p {
-    font-family: cursive;
-    font-weight: 600;
-
-}
-
-.sessao3 span {
-
-    color: #9b0800;
-    font-size: 20px;
-
-}
-
-.sessao3 {
-    background-color: #cc4d1ffd;
-    display: flex;
-    text-align: center;
-    align-items: center;
-    justify-content: center;
-    padding: 5%;
-    gap: 15%;
-
-}
-
-
-.sessao3 img {
-    width: 55%;
-}
-
-.sessao4 {
-    background-color: #f69a0b;
-    display: flex;
-    text-align: center;
-    align-items: center;
-    justify-content: center;
-    gap: 5%;
-    padding: 50px;
-}
-
-.maps {
-    width: 55%;
-    display: flex;
-    border-radius: 5%;
-}
-
-.sessao4 p {
-
-    font: 700;
-    font-family: fantasy;
-}
-
-.sessao4 span {
-    color: #1d2440;
-
+    
 }
 
 footer {
