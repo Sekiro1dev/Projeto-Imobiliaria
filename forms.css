@@ -1,25 +1,18 @@
 * {
-
     margin: 0%;
     padding: 0%;
     list-style: none;
     text-decoration: none;
+
 }
 
 header {
-
     display: flex;
-    /*Deixando os itens lado a lado  */
     background-color: #afaca4;
-    /*Mudando a cor de fundo (header)*/
     justify-content: center;
-    /* Colocar o contéudo ao centro*/
     align-items: center;
-    /* alinhar verticalmente os itens */
     gap: 5%;
-    /*espaço entre os itens*/
     padding: 2%;
-    /*espaço do fundo*/
 
 }
 
@@ -35,22 +28,18 @@ header h1 {
 
 .list-menu ul {
     display: flex;
-    /* alterando lista não ordenada -elemento pai-*/
     justify-content: center;
-    /*centralizando minhas listas*/
     gap: 25px;
-    /*Espaço entre as li*/
     color: white;
 }
 
 .list-menu ul li {
     list-style: none;
-    /*alterando a lista não ordenada e removendo o estilo aplicado*/
+
 }
 
 .list-menu ul li a {
     text-decoration: none;
-    /*Remoção de sublinhado*/
     color: rgb(0, 0, 0);
 }
 
@@ -65,7 +54,6 @@ header h1 {
     align-items: center;
     background-size: cover;
     background-image: url(videos-gif/houses-5002_512.gif);
-
 
 }
 
@@ -83,6 +71,7 @@ header h1 {
 
 .divs1 input {
 
+    border-radius: 15px;
     padding: 5px;
     justify-content: center;
     display: flex;
@@ -97,10 +86,20 @@ header h1 {
     font-weight: bold
 }
 
-label {
-       margin-bottom: 20px;
+.botao {
+    cursor: pointer;
+    font-size: 20px;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+}
+
+.botao:hover {
+    background-color: #afaca4;
+    transition: (0.8);
 
 }
+
 
 .divs1 h2 {
     padding: 25px;

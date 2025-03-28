@@ -52,8 +52,8 @@ header h1 {
     /*alterando a lista não ordenada e removendo o estilo aplicado*/
 }
 
-.list-menu ul li a {
-    text-decoration: none;
+.list-menu ul li a:hover {
+    text-decoration: none; 
     /*Remoção de sublinhado*/
     color: rgb(0, 0, 0);
 }
@@ -84,7 +84,14 @@ header h1 {
     background-color: #dad6ca;
     color: rgb(9, 10, 10);
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    
+    box-shadow: 10px 10px 30px; color: black;
+   
+}
+.botao:hover {
+          background-color: rgba(255, 255, 255, 0.568);
+          transition: (0.8s);
+          transform: scale(1.02);
+          translate: (5px, 5px);
 }
 
 
@@ -108,6 +115,7 @@ header h1 {
     background-color: #1592ace0;
     width: 50%;
     padding: 20px;
+    box-shadow: 10px 10px 20px; color: black;
 
 }
 
@@ -124,6 +132,7 @@ header h1 {
 .sessao2 img {
     width: 100%;
     border-radius: 20px;
+    
 }
 
 .sessao2 i {
@@ -139,7 +148,7 @@ header h1 {
 
 .sessao3 span {
 
-    color: #1bb0ce;
+    color: #0a515f;
     font-size: 20px;
 
 }
@@ -159,6 +168,7 @@ header h1 {
 .sessao3 img {
     width: 55%;
     border-radius: 20px;
+    box-shadow: 10px 10px 20px; color: black;
 }
 
 .sessao4 {
@@ -175,6 +185,7 @@ header h1 {
     width: 55%;
     display: flex;
     border-radius: 5%;
+    box-shadow: 10px 10px 20px; color: black;
 }
 
 .sessao4 p {
