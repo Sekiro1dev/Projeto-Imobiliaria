@@ -38,7 +38,7 @@ header h1 {
 
 }
 
-.list-menu ul li a {
+.list-menu ul,li,a:hover {
     text-decoration: none;
     color: rgb(0, 0, 0);
 }

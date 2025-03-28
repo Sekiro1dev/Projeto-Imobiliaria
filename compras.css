@@ -51,10 +51,10 @@ header h1 {
     /*alterando a lista não ordenada e removendo o estilo aplicado*/
 }
 
-.list-menu ul li a {
+.list-menu,ul,li,a:hover {
     text-decoration: none;
     /*Remoção de sublinhado*/
-    color: white;
+    color: rgb(0, 0, 0);
 }
 
 /*Termino do cabeçalho */

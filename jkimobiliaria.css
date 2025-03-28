@@ -52,10 +52,11 @@ header h1 {
     /*alterando a lista não ordenada e removendo o estilo aplicado*/
 }
 
-.list-menu ul li a:hover {
+.list-menu ,ul, li, a:hover {
     text-decoration: none; 
     /*Remoção de sublinhado*/
     color: rgb(0, 0, 0);
+    transition: (0.8s);
 }
 
 /*Termino do cabeçalho */
@@ -80,18 +81,25 @@ header h1 {
 
     padding: 35px;
     border-radius: 20px;
-    width: 40%;
+    width: 50%;
     background-color: #dad6ca;
-    color: rgb(9, 10, 10);
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     box-shadow: 10px 10px 30px; color: black;
+    cursor: pointer;
    
 }
-.botao:hover {
+
+.botao h2,a {
+    color: black;  
+       
+}
+
+.botao, h2:hover {
           background-color: rgba(255, 255, 255, 0.568);
           transition: (0.8s);
           transform: scale(1.02);
           translate: (5px, 5px);
+          
 }
 
 
