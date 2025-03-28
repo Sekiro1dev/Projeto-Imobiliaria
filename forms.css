@@ -1,0 +1,132 @@
+* {
+
+    margin: 0%;
+    padding: 0%;
+    list-style: none;
+    text-decoration: none;
+}
+
+header {
+
+    display: flex;
+    /*Deixando os itens lado a lado  */
+    background-color: #afaca4;
+    /*Mudando a cor de fundo (header)*/
+    justify-content: center;
+    /* Colocar o contéudo ao centro*/
+    align-items: center;
+    /* alinhar verticalmente os itens */
+    gap: 5%;
+    /*espaço entre os itens*/
+    padding: 2%;
+    /*espaço do fundo*/
+
+}
+
+header img {
+    width: 60px;
+}
+
+header h1 {
+    color: #f0efef;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 900;
+}
+
+.list-menu ul {
+    display: flex;
+    /* alterando lista não ordenada -elemento pai-*/
+    justify-content: center;
+    /*centralizando minhas listas*/
+    gap: 25px;
+    /*Espaço entre as li*/
+    color: white;
+}
+
+.list-menu ul li {
+    list-style: none;
+    /*alterando a lista não ordenada e removendo o estilo aplicado*/
+}
+
+.list-menu ul li a {
+    text-decoration: none;
+    /*Remoção de sublinhado*/
+    color: rgb(0, 0, 0);
+}
+
+
+
+
+.sessao1 {
+
+    padding: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    background-image: url(videos-gif/houses-5002_512.gif);
+
+
+}
+
+.divs1 {
+
+    background-color: #ecececd7;
+    padding: 150px;
+    border-radius: 35px;
+    box-shadow: 10px 10px 20px;
+    color: rgba(0, 0, 0, 0.74);
+    width: auto;
+    height: auto;
+
+}
+
+.divs1 input {
+
+    padding: 5px;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    box-shadow: 10px 10px 20px;
+    color: rgba(0, 0, 0, 0.74);
+    transition: 0.8s;
+    transform: scale(1.02);
+    translate: (5px, 5px);
+    width: 500px;
+    font-weight: bold
+}
+
+label {
+       margin-bottom: 20px;
+
+}
+
+.divs1 h2 {
+    padding: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+
+footer {
+    padding: 2%;
+    background-color: black;
+    text-align: center;
+}
+
+footer p {
+    color: #fcf3f3;
+    font-size: 25px;
+
+}
+
+footer h3 {
+    color: #ececec;
+    font-size: 25px;
+
+}
+
+footer i {
+    color: #122c91;
+}
